@@ -1,0 +1,12 @@
+nav.navbar {
+	padding-top: calculateRem(42px);
+	padding-bottom: calculateRem(32px);
+}
+
+.navbar-brand {
+	width: 305px;
+	height: 42px;
+	background-image: url('../img/base/brand/logotipo-gasolinera-mexico.svg');
+	background-size: 100% 100%;
+	display: inline-block;
+}

@@ -1,0 +1,34 @@
+// COMMON IMPORTS
+@import "config/font-face"; 
+@import "config/variables";
+@import "config/mixins";
+
+// BASE
+@import "base/base";
+@import "base/header";
+
+// PARTIALS
+@import "partials/type";
+@import "partials/buttons";
+@import "partials/forms";
+@import "partials/sections";
+@import "partials/tables";
+@import "partials/cards";
+@import "partials/home";
+@import "partials/ui";
+
+// FOOTER
+@import "base/footer";
+
+// RESPONSIVE
+@import "base/responsive";
+
+
+
+
+
+
+
+
+
+

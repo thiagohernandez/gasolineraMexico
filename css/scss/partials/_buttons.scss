@@ -1,0 +1,77 @@
+/* BUTTON */
+.btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-family: $font-heading;
+    font-weight: $font-weight-bold;
+    color: white;
+    @include font-size(13px);
+    @include transition(all .3s ease-in);
+}
+
+.btn {
+    @extend .btn;
+    color: $primary-color;
+    &:hover {
+        color: $tertiary-color;
+        background-color: transparent;
+    }
+}
+
+.btn-minimal {
+    @extend .btn;
+    color: $gray;
+    border: 1px solid rgba($gray, 0.3);
+    background-color: transparent;
+    &:hover {
+        color: $gray;
+        border: 1px solid rgba($gray, 1);
+    }
+}
+
+
+.btn-primary {
+    @extend .btn;
+    color: white;
+    background-color: $primary-color;
+    &:hover {
+        color: white;
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+.btn-secondary {
+    @extend .btn;
+    color: white;
+    background-color: $secondary-color;
+    &:hover {
+        color: white;
+        background-color: darken($secondary-color, 10%);
+    }
+}
+
+.btn-tertiary {
+    @extend .btn;
+    color: white;
+    background-color: $tertiary-color;
+    &:hover {
+        color: white;
+        background-color: darken($tertiary-color, 10%);
+    }
+}
+
+.btn-rounded {
+    @extend .btn;
+    padding: 5px 14px;
+    border-radius: 16px;
+    @include font-size(11px);
+}
+
+.btn-sm {
+    padding: 4px 8px;
+    @include font-size(10px);
+    letter-spacing: 0.05em;
+}

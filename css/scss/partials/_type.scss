@@ -1,0 +1,52 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+    font-weight: $font-weight-bold;
+}
+
+h1 {
+    color: $primary-color;
+    @include font-size(62px);
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    color: $secondary-color;
+    @include font-size(32px);
+}
+
+h3 {
+    color: $primary-color;
+    @include font-size(24px);
+}
+
+h4 {
+    color: $tertiary-color;
+    @include font-size(18px);
+}
+
+h5 {
+    color: $tertiary-color;
+    @include font-size(13px);
+}
+
+p {
+    line-height: 1.5em;
+    margin-bottom: calculateRem(24px);
+}
+
+.title-page {
+    line-height: 1.1em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.text-gray {
+    color: $gray!important;
+}
+.text-dark-gray {
+    color: $dark-gray;
+}
+

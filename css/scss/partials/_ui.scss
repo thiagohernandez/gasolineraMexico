@@ -1,0 +1,12 @@
+.label {
+	display: inline-block;
+	border-radius: 3px;
+	padding: 4px 8px;
+	&.label-danger {
+		color: $gray;
+		background-color: $color-brand-yellow; 
+	}
+}
+h3 .label {
+	@include font-size(16px);
+}

@@ -1,0 +1,55 @@
+
+
+// FONTES
+$font-stack: 'Montserrat', sans-serif;
+$font-heading: 'Montserrat', sans-serif;
+$font-alternate: 'League Gothic', sans-serif;
+
+// Pesos
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+/* BRAND */
+
+
+
+$color-brand-green-primary: rgba(82,184,153,1);
+$primary-color: $color-brand-green-primary;
+
+$color-brand-yellow: rgba(239,217,55,1);
+$secondary-color: $color-brand-yellow;
+
+$tertiary-color: rgb(192,62,99); /* VERDE */
+
+/* GRAY */
+$color-brand-dark-gray: rgba(25,33,45,1);
+$dark-gray: $color-brand-dark-gray;
+
+$color-brand-base-gray: rgba(60,77,91,1);
+$gray: $color-brand-base-gray;
+
+$color-gray-09: rgba(54,66,62,1);
+$color-gray-08: rgba(91,113,106,1);
+$color-gray-07: rgba(115,143,134,1);
+$color-gray-06: rgba(140,165,158,1);
+$color-gray-05: rgba(163,183,177,1);
+$color-gray-03: rgba(185,199,195,1);
+$color-gray-02: rgba(218,226,224,1);
+$color-gray-01: rgba(234,238,237,1);
+$color-gray-00: rgba(248,250,249,1);
+
+$gradient-brand: linear-gradient(0deg, #52B899 0%, #EFD937 100%);
+
+
+$red: rgb(235, 87, 87);
+$red-darker: rgb(174, 31, 35);
+
+$green: rgb(135, 211, 124);
+
+$blue: rgb(65, 131, 215);
+
+$ice-age: rgb(248,249,251);
+$porcelain: rgb(242,243,247);
+
